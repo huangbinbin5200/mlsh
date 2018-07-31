@@ -2,16 +2,56 @@
 	padding: 0;
 	margin: 0;
 }
+body{
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
 .top1{
 	width: 100%;
-	height: 39px;
+	height: 40px;
 	background-color: #f8f8f8;
 }
 .topCenter{
 	width: 1200px;
 	height: 100%;
-	background-color: red;
+    line-height: 40px;
+	background-color: #f8f8f8;
 	margin: 0 auto;
+    color: #999999;
+}
+.topCenter a{
+    color: #999999;
+}
+.topCenter>.topL,.topCenter>.topR{
+    font-size:14px ;
+    float: left;
+    height: 100%;
+}
+.topCenter>.topL{
+    width: 820px;
+    height: auto;
+
+}
+.topCenter>.topR{
+    width: 380px;
+}
+.topCenter ul>li{
+    padding: 0 5px;
+    float: left;
+}
+.topCenter>.topL>ul>li:first-of-type{
+    padding:0 15px 0 0;
+}
+.topCenter>.topR>ul>li:first-of-type{
+    padding:0 50px 0 0;
+}
+.topCenter>.topL>ul>li:first-of-type a,.topCenter>.topR>ul>li:first-of-type a:first-of-type{
+    color: #ff9900;
 }
 .center{
 	width: 100%;
@@ -21,6 +61,61 @@
 .centerDiv{
 	width: 1200px;
 	height: 100%;
-	background-color: blue;
 	margin: 0 auto;
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4 ;
+    padding-bottom: 50px;
+}
+.module{
+    width: 1200px;
+    margin: 0 auto;
+}
+.modTile{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.modContent{
+    width: 100%;
+    height: 270px;/*暂时为270px 填充内容后改为auto、 由内容撑开高度*/
+    background-color: white;
+}
+.modTile .pos a{
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+}
+.modTile .til{
+    font-size: 20px;
+    color: #333333;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #e3dfe0;
+}
+.footDiv{
+    width:1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+.footConDiv{
+    width:520px;height:90px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.footConDiv>.item{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+.footConDiv>.item a{
+    color: #999999;
 }
